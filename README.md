@@ -167,7 +167,29 @@ In this process, we will calculate the first quartile (Q1) and third quartile (Q
 <img src="box.png" alt="box plot" width="950">
 
 
+Upon comparing the capped prices with the original prices, we draw the following conclusion: the initially set limits aren't optimal for our approach. In this case, we've adjusted the limits to **20 USD** and **120 USD.** This adjustment is crucial as continuing with the current capped prices might introduce bias into our conclusions.
+
+
 <img src="capped.png" alt="price capped" width="950">
+
+
+Now the price data appears more refined, allowing us to proceed. There are a few price points where data is capped, particularly in the lower range of prices.
+
+
+<img src="capped_adj.png" alt="price capped" width="950">
+
+
+Although the optimal distribution is the double gamma, we have decided to choose the **skewness normal distribution** based on the following considerations.
+
+- aic: The **Akaike Information Criterion (AIC)** is a measure that assesses the relative quality of a statistical model. **AIC** takes into consideration both the model's fitting ability and the amount of information it employs (number of parameters). The goal is to select the model with the lowest **AIC** value, indicating a good balance between fit and complexity.
+
+- bic: The **Bayesian Information Criterion (BIC)** is a statistical measure employed for model selection. Similar to the Akaike Information Criterion (AIC), the **BIC** assesses the relative quality of models fitted to the data. However, it imposes a stronger penalty for model complexity.
+
+
+<img src="fitter_price_capped_t.png" alt="price capped" width="550">
+
+
+<img src="fitter_price_capped_g.png" alt="price capped" width="850">
 
 ```python
 
