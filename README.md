@@ -4,7 +4,7 @@
 - [Context](#context)
 - [Introduction](#introduction)
    + [Data exploring](big_query.ipynb)
-- [Distributions](#clustering)
+- [Distributions](#distributions)
    + [Clustering](big_query.ipynb)
 - [Conclusions](#conclusions)
    + [Conclusions](big_query.ipynb)
