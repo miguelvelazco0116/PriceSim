@@ -5,7 +5,7 @@
 - [Introduction](#introduction)
    + [Data exploring](genhyp_prices.ipynb)
 - [Distributions](#distributions)
-   + [Clustering](genhyp_prices.ipynb)
+   + [Distributions](genhyp_prices.ipynb)
 - [Conclusions](#conclusions)
    + [Conclusions](genhyp_prices.ipynb)
 
