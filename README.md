@@ -1,6 +1,15 @@
 # PriceSim: Navigating Markets with Probability Distributions
 
 
+- [Context](#context)
+- [Introduction](#introduction)
+   + [Data exploring](big_query.ipynb)
+- [Distributions](#clustering)
+   + [Clustering](big_query.ipynb)
+- [Conclusions](#conclusions)
+   + [Conclusions](big_query.ipynb)
+
+
 ## *Context*
 
 
