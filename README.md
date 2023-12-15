@@ -3,11 +3,11 @@
 
 - [Context](#context)
 - [Introduction](#introduction)
-   + [Data exploring](big_query.ipynb)
+   + [Data exploring](genhyp_prices.ipynb)
 - [Distributions](#distributions)
-   + [Clustering](big_query.ipynb)
+   + [Clustering](genhyp_prices.ipynb)
 - [Conclusions](#conclusions)
-   + [Conclusions](big_query.ipynb)
+   + [Conclusions](genhyp_prices.ipynb)
 
 
 ## *Context*
