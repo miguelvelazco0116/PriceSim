@@ -124,10 +124,10 @@ The Generalized Hyperbolic distribution is also applied to modeling commodity pr
 As we can observe in the following graph, the data closely resembles a `double gamma distribution`.
 
 
-<img src="fitter_var.png" alt="fitter price variation" width="550">
+<img src="fitter_price.png" alt="fitter price variation" width="550">
 
 
-<img src="fitter_varg.png" alt="fitter price variation" width="950">
+<img src="fitter_priceg.png" alt="fitter price variation" width="950">
 
 <!-- #region -->
 ***`double gamma`***<br>
@@ -191,6 +191,23 @@ Although the optimal distribution is the double gamma, we have decided to choose
 
 <img src="fitter_price_capped_g.png" alt="price capped" width="850">
 
-```python
 
-```
+Once we have identified the most suitable distribution for our data, we can proceed to the next crucial step. To gain a better understanding of the potential scenarios, we will employ a **Monte Carlo simulation.** This simulation will provide valuable insights into how prices may behave over the next 180 days.
+
+
+<img src="montecarlo.png" alt="monte carlo" width="850">
+
+
+In conclusion, we have calculated a mean price of **74.6 USD** with a standard deviation of **4.7 USD.** While the mean provides us with an estimate of the expected price over the next 180 days, the significant standard deviation highlights the substantial variability in the data. In a business context, it's essential to recognize that a movement of **4 USD** can be attributed to major geopolitical events or other factors that directly impact the supply chain.
+
+
+### Conclusions
+
+
+In the previous sections, I've introduced a method for aligning our data distribution. This step is crucial as it allows us to gain a more accurate understanding of the probability of various events occurring. Coupled with **Monte Carlo simulations**, this approach provides valuable insights into potential future scenarios, enabling us to make more informed decisions.
+
+In this particular case, our analysis suggests that over the upcoming days, we can anticipate a consistent growth in prices, with a projected average of **74 USD**. Armed with this information, we can consider taking future contracts accordingly.
+
+However, it's essential to acknowledge the inherent unpredictability in the market. Events like the COVID-19 pandemic have demonstrated their capacity to drastically impact prices, leading to significant fluctuations. On the flip side, some events, such as geopolitical conflicts, can be anticipated and leveraged to our advantage when trading WTI futures.
+
+Moving forward, it's imperative to factor in financial risk assessment as we proceed with projects or operations of this nature.
